@@ -1,0 +1,16 @@
+name: check-att-scan-face
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - dlib
+  - opencv
+  - numpy
+  - pandas
+  - openpyxl
+  - pip:
+      - streamlit
+      - face-recognition
+      - python-dotenv
+      - supabase
