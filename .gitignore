@@ -1,0 +1,12 @@
+# Python env & cache
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local database
+*.db
+registered_photos/
+
+# Private environment variables
+.env
